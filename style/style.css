@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: url("../images/header_bg.png") no-repeat;
+    height: 800px;
+    }
+    .header-content {
+        max-width: 1110px; /* максимальная ширина которая она может растянутся */
+        width: 100%;
+        margin: 0px auto;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-nav {
+        display: flex;
+        justify-content: space-between; /* раположить по бокам бокса */
+        align-items: center;
+    }
+    .nav-link {
+        color: white;
+        background: black;
+        text-decoration: none;  /* отключает декорацию текста */
+        display: inline-block;
+        padding: 10px 5px;
+        font-size: 20px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+    .nav-massagе {
+        color: white;
+        text-decoration: none;
+        font-family: Arial;
+        }
+        .header-title {
+            color: white;
+            text-transform: uppercase;/* буквы делает за главными */
+            font-style: arial;
+            font-size: 35px;
+            margin-bottom: 25px; /* внешний отступ снизу */
+        
+                        
+        }
+        .header-about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1; /* растягивает на всю ширину */
+            justify-content: center;
+            
+        }
+        
+        .header-callme {
+            display: flex;
+            justify-content: center;
+            background: white;
+            width: 300px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 20px;
+            font-style: Arial;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+            .main {
+                max-width: 1100px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            
+            .about-title {
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .about-description {
+                text-align: center;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 20px;
+                
+            }
+            
+            .about-link {
+                display: flex;
+                background: black;
+                color: white;
+                width: 300px;
+                justify-content: center;
+                margin: 0 auto;
+                padding: 15px 0;
+                text-decoration: none;
+                font-family: arial;
+                      
+            }
+            .myworks-title{
+                text-align: center;
+                margin: 50px 0;
+                font-size: 35px;
+                text-transform: uppercase;
+                
+            }
+            .card{
+                max-width: 300px;
+                width: 100%;
+                border: 1px solid black;
+                padding: 15px 5px;
+                margin-bottom: 20px;
+            }
+            
+            .card-img{
+                width: 100%;
+                
+            }
+            .card-title{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            .card-description{
+                text-align: center;
+                margin: 15px 0;
+                font-family: Arial;
+                
+            }
+            .card-link{
+                display: flex;
+                background: black;
+                color: white;
+                justify-content: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px 0;
+                border-radius: 5px;
+                margin: 0 auto;
+                
+            }
+            
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                
+            }
+            
+            .footer {
+                background: black;
+                padding: 20px 0;
+                display: flex;
+                justify-content: center;
+             }
+            
+            .footer-link{
+                margin-right: 30px;
+            }
+            

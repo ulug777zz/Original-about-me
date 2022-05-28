@@ -1,0 +1,29 @@
+@media (max-width: 650px) {
+    .header-nav {
+        justify-content: space-around;
+    }
+
+    .header-title {
+        text-align: center;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        height: 300px;
+    }
+
+    .header-content {
+        height: 250px;
+    }
+    
+    
+}    
